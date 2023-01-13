@@ -1,4 +1,4 @@
-// When Button A is pressed audio will play
+// When Button A is pressed a melody will play.
 input.onButtonPressed(Button.A, function () {
     music.playMelody("C D G F E D G C ", 268)
 })
@@ -10,7 +10,7 @@ input.onButtonPressed(Button.B, function () {
         basic.showIcon(IconNames.Heart)
     }
 })
-// When the Micro:bit is shaken the Heart will beat 8 times then go back to normal.
+// When shaken the heart will beat.
 input.onGesture(Gesture.Shake, function () {
     for (let index = 0; index < 8; index++) {
         basic.showIcon(IconNames.Heart)
