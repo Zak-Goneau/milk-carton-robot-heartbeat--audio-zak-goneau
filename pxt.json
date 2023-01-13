@@ -1,5 +1,5 @@
 {
-    "name": "Milk Carton Robot heartbeat + Audio (Zak Goneau)",
+    "name": "Milk Carton Robot Heartbeat + Audio + Number Guessing Game (Zak Goneau)",
     "description": "",
     "dependencies": {
         "core": "*",
