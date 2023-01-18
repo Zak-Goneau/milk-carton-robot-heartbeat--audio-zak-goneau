@@ -6,7 +6,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 1; index++) {
         basic.showNumber(randint(0, 10))
-        basic.pause(500)
+        basic.pause(1000)
         basic.showIcon(IconNames.Heart)
     }
 })
